@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace DPS
 {
@@ -13,7 +14,24 @@ namespace DPS
                 7, 6, 8
             };
 
-            Node initNode = new Node(puzzle);
+            Node root = new Node(puzzle);
+            UninformedSearch ui = new UninformedSearch();
+            List<Node> solution = ui.BreadthFirstSearch(root);
+
+            if(solution.Count > 0)
+            {
+                solution.Reverse();
+                for(int i = 0; i < solution.Count; i++)
+                {
+                    solution[i].printPuzzle();
+                }
+            }
+            else
+            {
+                Console.WriteLine("No path to Solution is Found");
+            }
+
+            Console.Read();
             //Console.WriteLine("Hello World!");
         }
     }

@@ -43,6 +43,22 @@ namespace DPS
 
         }
 
+        public void ExpandNode()
+        {
+            for(int i=0; i < puzzle.Length; i++)
+            {
+                if (puzzle[i] == 0)
+                {
+                    x = i;
+                }
+
+            }
+                MoveRight(puzzle, x);
+                MoveLeft(puzzle, x);
+                MoveUp(puzzle, x);
+                MoveButtom(puzzle, x);
+        }
+
         public void MoveRight(int[] p, int i)
         {
             if (i%col < col-1)
@@ -102,7 +118,7 @@ namespace DPS
                 copyPuzzle(pc, p);
 
                 int temp = pc[i + 3];
-                pc[i] = pc[i + 3];
+                pc[i + 3] = pc[i];
                 pc[i] = temp;
 
                 Node child = new Node(pc);
@@ -119,14 +135,14 @@ namespace DPS
             {
                 for(int j = 0; j < col; j++)
                 {
-                    Console.WriteLine(puzzle[m] + " ");
+                    Console.Write(puzzle[m] + " ");
                     m++;
                 }
                 Console.WriteLine();
             }
         }
 
-        public bool samePuzzle(int[] p)
+        public bool isSamePuzzle(int[] p)
         {
             bool samePuzzle = true;
             for(int i = 0; i < p.Length; i++)
