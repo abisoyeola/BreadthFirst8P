@@ -1,0 +1,14 @@
+C:\Users\ODINGA\source\repos\DPS\DPS\bin\Debug\netcoreapp3.1\DPS.exe
+C:\Users\ODINGA\source\repos\DPS\DPS\bin\Debug\netcoreapp3.1\DPS.deps.json
+C:\Users\ODINGA\source\repos\DPS\DPS\bin\Debug\netcoreapp3.1\DPS.runtimeconfig.json
+C:\Users\ODINGA\source\repos\DPS\DPS\bin\Debug\netcoreapp3.1\DPS.runtimeconfig.dev.json
+C:\Users\ODINGA\source\repos\DPS\DPS\bin\Debug\netcoreapp3.1\DPS.dll
+C:\Users\ODINGA\source\repos\DPS\DPS\bin\Debug\netcoreapp3.1\DPS.pdb
+C:\Users\ODINGA\source\repos\DPS\DPS\obj\Debug\netcoreapp3.1\DPS.csproj.AssemblyReference.cache
+C:\Users\ODINGA\source\repos\DPS\DPS\obj\Debug\netcoreapp3.1\DPS.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ODINGA\source\repos\DPS\DPS\obj\Debug\netcoreapp3.1\DPS.AssemblyInfoInputs.cache
+C:\Users\ODINGA\source\repos\DPS\DPS\obj\Debug\netcoreapp3.1\DPS.AssemblyInfo.cs
+C:\Users\ODINGA\source\repos\DPS\DPS\obj\Debug\netcoreapp3.1\DPS.csproj.CoreCompileInputs.cache
+C:\Users\ODINGA\source\repos\DPS\DPS\obj\Debug\netcoreapp3.1\DPS.dll
+C:\Users\ODINGA\source\repos\DPS\DPS\obj\Debug\netcoreapp3.1\DPS.pdb
+C:\Users\ODINGA\source\repos\DPS\DPS\obj\Debug\netcoreapp3.1\DPS.genruntimeconfig.cache
